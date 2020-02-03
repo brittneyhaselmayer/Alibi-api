@@ -1,4 +1,6 @@
 class Alibi < ApplicationRecord
+   validates :user_id, :when, presence: true
+  
   belongs_to :user
 
   has_many :meetups
