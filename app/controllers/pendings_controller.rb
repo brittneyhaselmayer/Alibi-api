@@ -1,17 +1,14 @@
 class PendingsController < ApplicationController
-  skip_before_action :authorized, only: [:create, :index]
+  skip_before_action :authorized, only: [:create, :index, :destroy]
 
   def index
     pendings = Pending.all
     render json: pendings,
     include:[:event]
-  #  @library = Library.all.includes( books: [ author: :bio ] )
+
   end
 
  
-
-
-  
   def create
         @pending = Pending.create(pending_params)
         if @pending.valid?
@@ -23,7 +20,7 @@ class PendingsController < ApplicationController
   end
   
   def destroy
-
+    Pending.destroy(params[:id])
   end
       
 
