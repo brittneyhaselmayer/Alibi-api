@@ -8,14 +8,28 @@
 
 
 
-movie= Event.create(occasion: "Movie")
-dinner= Event.create(occasion: "Dinner")
-yoga= Event.create(occasion: "Yoga")
-workout= Event.create(occasion: "Workout")
-lunch= Event.create(occasion: "Lunch")
-hiking= Event.create(occasion: "Hiking")
-brunch= Event.create(occasion: "Brunch")
-workevent= Event.create(occasion: "Work Event")
+# movie= Event.create(occasion: "Movie")
+# dinner= Event.create(occasion: "Dinner")
+# yoga= Event.create(occasion: "Yoga")
+# workout= Event.create(occasion: "Workout")
+# lunch= Event.create(occasion: "Lunch")
+# hiking= Event.create(occasion: "Hiking")
+# brunch= Event.create(occasion: "Brunch")
+#  bowling= Event.create(occasion: "Bowling")
+#  fishing= Event.create(occasion: "Fishing")
+#  dancing= Event.create(occasion: "Dancing")
+#  shopping= Event.create(occasion: "Shopping")
+#  running= Event.create(occasion: "Running")
+#  kayaking= Event.create(occasion: "Kayaking")
+#  concert= Event.create(occasion: "Concert")
+#  vacation= Event.create(occasion: "Vacation")
+#  swimming= Event.create(occasion: "Swimming")
+#  cooking= Event.create(occasion: "Cooking")
+#  camping= Event.create(occasion: "Camping")
+#  painting= Event.create(occasion: "Painting")
+#  biking= Event.create(occasion: "Biking")
+
+
 
 
 
