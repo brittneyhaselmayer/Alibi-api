@@ -4,7 +4,7 @@ class MeetupsController < ApplicationController
     def index
       meetups = Meetup.all
       render json: meetups,
-      include:[:event]
+     include:[:event, :alibi_1, :alibi_2]
 
     end
 
